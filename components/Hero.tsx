@@ -2,6 +2,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerate";
 import MagicButton from "./ui/MagicButton";
+import MagicButton2 from "./ui/MagicButton2";
 
 const Hero = () => {
   return (
@@ -35,6 +36,9 @@ const Hero = () => {
             </p>
             <a href="#about">
               <MagicButton title="Show my work" />
+            </a>
+            <a href="/resume.pdf">
+              <MagicButton2 />
             </a>
           </div>
         </div>
