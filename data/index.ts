@@ -73,9 +73,9 @@ export const projects = [
   {
     id: 1,
     title: "Google - Gemini Clone",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Google Gemini is a family of multimodal large language models developed by Google DeepMind.",
     img: "/geminiclone.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/google.png", "/firebase-svgrepo-com.svg", "/sass.png", "/fm.svg"],
     link: "/ui.earth.com",
   },
   {
