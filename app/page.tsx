@@ -1,10 +1,12 @@
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import { CardHoverEffectDemo } from "@/components/HoverEffect";
 import { MacbookScrollDemo } from "@/components/MacBookScroll";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
+import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { FaHome } from "react-icons/fa";
-import { FaRProject } from "react-icons/fa6";
+import { FaPhone, FaRProject, FaServicestack, FaUser } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -13,16 +15,16 @@ export default function Home() {
         <FloatingNav
           navItems={[
             { name: "Home", link: "/", icon: <FaHome /> },
-            { name: "About", link: "#projects" },
+            { name: "About", link: "#projects", icon: <FaUser /> },
             { name: "My Projects", link: "#projects", icon: <FaRProject /> },
-            { name: "Services", link: "#" },
-            { name: "Contact", link: "#" },
+            { name: "Services", link: "#", icon: <FaServicestack /> },
+            { name: "Contact", link: "#", icon: <FaPhone /> },
           ]}
         />
         <Hero />
         <Grid />
-        <MacbookScrollDemo />
         <RecentProjects />
+        <CardHoverEffectDemo />
       </div>
     </main>
   );

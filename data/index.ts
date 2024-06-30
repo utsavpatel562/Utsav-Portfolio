@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/mybg2.jpg",
     spareImg: "",
   },
   {
@@ -76,7 +76,7 @@ export const projects = [
     des: "Google Gemini is a family of multimodal large language models developed by Google DeepMind.",
     img: "/geminiclone.png",
     iconLists: ["/re.svg", "/google.png", "/firebase-svgrepo-com.svg", "/sass.png", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://gemini-clone-orcin.vercel.app/",
   },
   {
     id: 2,
