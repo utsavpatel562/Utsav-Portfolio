@@ -1,10 +1,9 @@
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { CardHoverEffectDemo } from "@/components/HoverEffect";
-import { MacbookScrollDemo } from "@/components/MacBookScroll";
 import RecentProjects from "@/components/RecentProjects";
+import { TabsDemo } from "@/components/TabsDemo";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { FaHome } from "react-icons/fa";
 import { FaPhone, FaRProject, FaServicestack, FaUser } from "react-icons/fa6";
 
@@ -23,6 +22,7 @@ export default function Home() {
         />
         <Hero />
         <Grid />
+        <TabsDemo />
         <RecentProjects />
         <CardHoverEffectDemo />
       </div>
