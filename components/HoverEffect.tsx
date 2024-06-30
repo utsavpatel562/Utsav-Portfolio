@@ -1,4 +1,6 @@
+import { icons } from "@tabler/icons-react";
 import { HoverEffect } from "./ui/card-hover-effect";
+import { FaWebAwesome } from "react-icons/fa6";
 
 export function CardHoverEffectDemo() {
   return (
@@ -6,7 +8,7 @@ export function CardHoverEffectDemo() {
       <h1 className="heading">
         My Services / <span className="text-purple">What I Do?</span>
       </h1>
-      <div className="max-w-7xl mx-auto px-1">
+      <div className="max-w-7xl mx-auto px-1" id="services">
         <HoverEffect items={projects} />
       </div>
     </>
@@ -18,6 +20,7 @@ export const projects = [
     description:
       "I develop custom, scalable web applications tailored to your business, ensuring security and seamless user experiences.",
     link: "#",
+    icons: <FaWebAwesome />,
   },
   {
     title: "Technical Support",
