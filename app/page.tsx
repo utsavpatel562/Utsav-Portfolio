@@ -1,3 +1,4 @@
+import { StickyScrollRevealDemo } from "@/components/CertificationCall";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { CardHoverEffectDemo } from "@/components/HoverEffect";
@@ -25,6 +26,7 @@ export default function Home() {
         <TabsDemo />
         <RecentProjects />
         <CardHoverEffectDemo />
+        <StickyScrollRevealDemo />
       </div>
     </main>
   );
