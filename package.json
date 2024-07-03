@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@eslint/config-array": "^0.17.0",
+    "@eslint/object-schema": "^2.1.4",
     "@react-three/drei": "^9.107.1",
     "@react-three/fiber": "^8.16.8",
     "@sentry/nextjs": "^8.13.0",
     "@tabler/icons-react": "^3.7.0",
     "clsx": "^2.1.1",
+    "core-js": "^3.37.1",
     "framer-motion": "^11.2.12",
+    "glob": "^10.4.2",
+    "lru-cache": "^10.3.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.4",
     "next-themes": "^0.3.0",

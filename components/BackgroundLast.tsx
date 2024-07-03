@@ -3,6 +3,7 @@ import React from "react";
 import { Boxes } from "@/components/ui/background-boxes";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
+import Image from "next/image";
 
 export function BackgroundBoxesDemo() {
   return (
@@ -38,7 +39,7 @@ export function BackgroundBoxesDemo() {
               <span className="absolute inset-0 bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
             </span>
             <div className="relative flex space-x-2 items-center z-10 rounded-full bg-black-100 py-0.5 px-4 ring-1 ring-white/10 ">
-              <img
+              <Image
                 src="/linkedin1.png"
                 alt="LinkedIn"
                 width={46}
@@ -55,7 +56,7 @@ export function BackgroundBoxesDemo() {
               <span className="absolute inset-0 rounded-md bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
             </span>
             <div className="relative flex space-x-2 items-center z-10 rounded-full bg-black-100 py-0.5 px-4 ring-1 ring-white/10 ">
-              <img
+              <Image
                 src="/github.png"
                 alt="GitHub"
                 width={46}
