@@ -21,14 +21,14 @@ export function BackgroundBoxesDemo() {
         to the next level?
       </h1>
       <p className="text-center mt-2 text-neutral-300 relative z-20">
-        Reach out to me today and let's discuss how I can help you achieve your
-        goals.
+        Reach out to me today and let&apos; discuss how I can help you achieve
+        your goals.
       </p>
       <Link href="mailto:utsavpatel562@gmail.com">
         <button className="mt-9 relative inline-flex h-14 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
           <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
           <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-4 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-            Let's get me touch
+            Let&apos; get me touch
           </span>
         </button>
       </Link>

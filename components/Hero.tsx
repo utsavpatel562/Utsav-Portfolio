@@ -32,7 +32,7 @@ const Hero = () => {
               words="I'm a Computer Programmer who enjoys turning creative ideas into code."
             />
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hi, I'm Utsav Patel, a MERN Developer based in GTA.
+              Hi, I&apos; Utsav Patel, a MERN Developer based in GTA.
             </p>
             <a href="#about">
               <MagicButton title="Show my work" />
