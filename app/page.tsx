@@ -1,3 +1,4 @@
+import { BackgroundBoxesDemo } from "@/components/BackgroundLast";
 import { StickyScrollRevealDemo } from "@/components/CertificationCall";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
@@ -18,7 +19,7 @@ export default function Home() {
             { name: "About", link: "#about", icon: <FaUser /> },
             { name: "My Projects", link: "#projects", icon: <FaRProject /> },
             { name: "Services", link: "#services", icon: <FaServicestack /> },
-            { name: "Contact", link: "#", icon: <FaPhone /> },
+            { name: "Contact", link: "#contact", icon: <FaPhone /> },
           ]}
         />
         <Hero />
@@ -27,6 +28,7 @@ export default function Home() {
         <RecentProjects />
         <CardHoverEffectDemo />
         <StickyScrollRevealDemo />
+        <BackgroundBoxesDemo />
       </div>
     </main>
   );

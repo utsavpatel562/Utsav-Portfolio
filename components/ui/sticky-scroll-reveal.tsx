@@ -67,6 +67,7 @@ export const StickyScroll = ({
       style={{
         scrollbarWidth: "thin",
         scrollbarColor: "#63686e #000",
+        boxShadow: "0px 0px 5px 2px rgba(97,97,97,1)",
       }}
     >
       <div className="div relative flex items-start px-4">
@@ -91,7 +92,7 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-slate-300 max-w-sm mt-10"
+                className="text-kg text-slate-300 max-w-[500px] mt-10"
               >
                 {item.description}
               </motion.p>

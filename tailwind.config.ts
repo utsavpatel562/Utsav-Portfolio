@@ -42,7 +42,7 @@ const config = {
           "100": "#E4ECFF",
         },
         pink: {
-          "100": "#111f4d",
+          "100": "#090030",
         },
         purple: "#CBACF9",
         border: "hsl(var(--border))",
