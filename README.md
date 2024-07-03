@@ -19,9 +19,9 @@ Welcome to my portfolio repository! This project showcases my skills and project
 - **Dynamic Shaders**: Custom shaders created with ShaderCanvas for unique visual effects.
 
 ## Deployment
-This project is deployed with Vercel. Visit [Live Demo](#) to see it in action.
+This project is deployed with Vercel. Visit [Live Demo](https://utsav-portfolio-code.vercel.app/) to see it in action.
 
 ## Installation and Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/utsavpatel562/Portfolio.git
+   git clone https://github.com/utsavpatel562/Utsav-Portfolio.git
