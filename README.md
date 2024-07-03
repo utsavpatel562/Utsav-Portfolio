@@ -1,8 +1,7 @@
 # Portfolio 👨‍💻
+<img src="public/Screenshot 2024-07-03 122057.png" style="border-radius:20px;">
 
 Welcome to my portfolio repository! This project showcases my skills and projects using TypeScript, Next.js, Framer Motion, Three.js, Tailwind CSS, ShaderCanvas, and is deployed with Vercel.
-
-<img src"public/Screenshot 2024-07-03 122057.png" />
 
 ## Technologies Used
 - **TypeScript**: A typed superset of JavaScript that enhances code quality and developer productivity.
