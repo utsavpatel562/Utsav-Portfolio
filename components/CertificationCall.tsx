@@ -73,7 +73,7 @@ export function StickyScrollRevealDemo() {
   return (
     <div className="p-10">
       <h1 className="heading mb-16">
-        My <span className="text-purple">Certification</span>
+        My <span className="text-purple">Certifications</span>
       </h1>
       <StickyScroll content={content} />
     </div>
