@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Google - Gemini Clone",
-    des: "Google Gemini is a family of multimodal large language models developed by Google DeepMind.",
-    img: "/geminiclone.png",
-    iconLists: ["/re.svg", "/google.png", "/firebase-svgrepo-com.svg", "/sass.png", "/fm.svg"],
-    link: "https://gemini-clone-orcin.vercel.app/",
+    title: "CarConnect: A Marketplace for cars",
+    des: "CarConnect, the ultimate marketplace for buying and selling cars! full-stack application is designed with performance, scalability, and user engagement.",
+    img: "/carconnect.png",
+    iconLists: ["/re.svg", "/tail.svg", "/drizzle.png", "/c.svg", "/js-svgrepo-com.svg"],
+    link: "https://car-connect-marketplace.netlify.app/",
   },
   {
     id: 2,
@@ -96,11 +96,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "LearNovice - Learning Management System",
-    des: "Developed LMS for user exprience using PHP, MySQL, JavaScript, jQuery and HTML/CSS",
-    img: "/learnovice.png",
-    iconLists: ["/js-svgrepo-com.svg", "/angular-svgrepo-com.svg", "/sql-database-generic-svgrepo-com.svg", "/php-svgrepo-com.svg", "/html-5-svgrepo-com.svg"],
-    link: "https://learnovicee.000webhostapp.com/",
+    title: "CareerBoost-AI: Mock Interviewer",
+    des: "Build a powerful AI-driven mock interview application by provide an interactive and realistic interview experience.",
+    img: "/careerboost.png",
+    iconLists: ["/next.svg", "/c.svg", "/drizzle.png", "/tail.svg", "/re.svg"],
+    link: "https://careerboost-ai.netlify.app/",
   },
 ];
 
