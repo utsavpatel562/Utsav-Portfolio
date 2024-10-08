@@ -21,6 +21,22 @@ const content = [
     ),
   },
   {
+    title: "Software Engineering Job Simulation",
+    description:
+      "I have earned a certification from JPMorgan Chase and Co. in 'Software Engineering Job Simulation,' where I gained hands-on experience with real-world software engineering tasks, including working on financial data visualization and risk management solutions.",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        <Image
+          src="/jpmorgan.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="Google Analytics Certification"
+        />
+      </div>
+    ),
+  },
+  {
     title: "Google Analytics 360",
     description:
       "I have earned the Google Analytics 360 Certification from Google, showcasing my ability to analyze and optimize digital marketing campaigns. This certification highlights my skills in using advanced tracking, creating custom reports, and leveraging data-driven insights to enhance website performance and marketing ROI.",
@@ -52,28 +68,12 @@ const content = [
       </div>
     ),
   },
-  {
-    title: "Entrepreneurship Foundations",
-    description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-    content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        <Image
-          src="/linkedin.png"
-          width={300}
-          height={300}
-          className="h-full w-full object-cover"
-          alt="Google Analytics Certification"
-        />
-      </div>
-    ),
-  },
 ];
 export function StickyScrollRevealDemo() {
   return (
     <div className="p-10">
       <h1 className="heading mb-16">
-        My <span className="text-purple">Certifications</span>
+        My <span className="text-purple">Certification</span>
       </h1>
       <StickyScroll content={content} />
     </div>
