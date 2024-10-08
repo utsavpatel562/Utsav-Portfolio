@@ -59,7 +59,7 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
         <Image
-          src="/mongodb.png"
+          src="/mongoDB.png"
           width={300}
           height={300}
           className="h-full w-full object-cover"
